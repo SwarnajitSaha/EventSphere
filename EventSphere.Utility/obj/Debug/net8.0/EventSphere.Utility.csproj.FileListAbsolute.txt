@@ -1,0 +1,14 @@
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\bin\Debug\net8.0\EventSphere.Utility.deps.json
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\bin\Debug\net8.0\EventSphere.Utility.runtimeconfig.json
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\bin\Debug\net8.0\EventSphere.Utility.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\bin\Debug\net8.0\EventSphere.Utility.pdb
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\EventSphere.Utility.csproj.AssemblyReference.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\EventSphere.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\EventSphere.Utility.AssemblyInfoInputs.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\EventSphere.Utility.AssemblyInfo.cs
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\EventSphere.Utility.csproj.CoreCompileInputs.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\EventSphere.Utility.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\refint\EventSphere.Utility.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\EventSphere.Utility.pdb
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\EventSphere.Utility.genruntimeconfig.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Utility\obj\Debug\net8.0\ref\EventSphere.Utility.dll

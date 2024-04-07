@@ -1,0 +1,14 @@
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\bin\Debug\net8.0\EventSphere.Models.deps.json
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\bin\Debug\net8.0\EventSphere.Models.runtimeconfig.json
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\bin\Debug\net8.0\EventSphere.Models.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\bin\Debug\net8.0\EventSphere.Models.pdb
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.csproj.AssemblyReference.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.AssemblyInfoInputs.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.AssemblyInfo.cs
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.csproj.CoreCompileInputs.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\refint\EventSphere.Models.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.pdb
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.genruntimeconfig.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\ref\EventSphere.Models.dll

@@ -1,0 +1,62 @@
+﻿@model EventCategory
+
+<form method="post" enctype="multipart/form-data">
+    <div class="border p-3 mt-4">
+        <div class="pb-3">
+            <h2 class="text-primary">Create Cetagory</h2>
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3 p-0">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-bg-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-bg-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="Type"></label>
+            <input asp-for="Type" class="form-control" />
+            <span asp-validation-for="Type" class="text-bg-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="MinGuest"></label>
+            <input asp-for="MinGuest" class="form-control" />
+            <span asp-validation-for="MinGuest" class="text-bg-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="MaxGuest"></label>
+            <input asp-for="MaxGuest" class="form-control" />
+            <span asp-validation-for="MaxGuest" class="text-bg-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="Offer"></label>
+            <input asp-for="Offer" class="form-control" />
+            <span asp-validation-for="Offer" class="text-bg-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="ProfileImage"></label>
+            <input type="file" name="file_1" class="form-control" />
+
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button type="submit" class="btn btn-primary form-control">Save Category</button>
+            </div>
+            <div class="col-6">
+                <a asp-controller="Category" asp-action="Category" class="btn btn-secondary border form-control">Back to List</a>
+            </div>
+        </div>
+    </div>
+
+
+</form>
+
+@*  For clint Side validation *@
+@section Scripts {
+    @{
+        <partial name="_Validationscriptspartial" />
+    }
+}

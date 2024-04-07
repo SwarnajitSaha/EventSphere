@@ -1,0 +1,17 @@
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.csproj.AssemblyReference.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.AssemblyInfoInputs.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.AssemblyInfo.cs
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\bin\Debug\net8.0\EventSphere.DataAccess.deps.json
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\bin\Debug\net8.0\EventSphere.DataAccess.runtimeconfig.json
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\bin\Debug\net8.0\EventSphere.DataAccess.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\bin\Debug\net8.0\EventSphere.DataAccess.pdb
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\bin\Debug\net8.0\EventSphere.Models.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\bin\Debug\net8.0\EventSphere.Models.pdb
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.csproj.CopyComplete
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\refint\EventSphere.DataAccess.dll
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.pdb
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\EventSphere.DataAccess.genruntimeconfig.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.DataAccess\obj\Debug\net8.0\ref\EventSphere.DataAccess.dll
