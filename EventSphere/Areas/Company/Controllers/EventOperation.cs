@@ -120,5 +120,31 @@ namespace EventSphere.Areas.Company.Controllers
             return NotFound();
 
         }
+
+        public IActionResult Messages()
+        {
+            IEnumerable<ContectUS> message = _unitOfWork.contectUsRepository.GetAll(u => u.Status=="unread");
+            return View(message);
+        }
+        public IActionResult Read(int id)
+        {
+            ContectUS contect = _unitOfWork.contectUsRepository.Get(u => u.Id == id);
+            if (contect != null)
+            {
+                contect.Status = "read";
+                _unitOfWork.contectUsRepository.update(contect);
+                _unitOfWork.save(); 
+            }
+            return RedirectToAction("Messages");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            ContectUS contect = _unitOfWork.contectUsRepository.Get(u => u.Id == id);
+            _unitOfWork.contectUsRepository.Remove(contect);
+            _unitOfWork.save();
+            return RedirectToAction("Messages");
+
+        }
     }
 }

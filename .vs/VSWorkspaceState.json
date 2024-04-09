@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EventSphere",
+    "\\EventSphere\\Areas",
+    "\\EventSphere\\Areas\\EventProcess",
+    "\\EventSphere\\Areas\\EventProcess\\Controllers",
+    "\\EventSphere\\Views",
+    "\\EventSphere\\Views\\Shared"
+  ],
+  "SelectedNode": "\\EventSphere.sln",
+  "PreviewInSolutionExplorer": false
+}

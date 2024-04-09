@@ -7,6 +7,7 @@ C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\Event
 C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.AssemblyInfoInputs.cache
 C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.AssemblyInfo.cs
 C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.csproj.CoreCompileInputs.cache
+C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.sourcelink.json
 C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.dll
 C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\refint\EventSphere.Models.dll
 C:\Users\swarn\source\repos\EventSphere\EventSphere.Model\obj\Debug\net8.0\EventSphere.Models.pdb

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -23,5 +24,9 @@ namespace EventSphere.Models.Models
 
         [Required]
         public string Comment { get; set; }
+
+        [Required]
+        [DefaultValue("unread")]
+        public String Status { get; set; }
     }
 }

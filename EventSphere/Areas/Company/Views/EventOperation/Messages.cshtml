@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ContectUS>
+
+<div class="card shadow border-0 mt-3">
+    <div class="card-header bg-dark bg-gradient">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white">Messages</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body p-4">
+        <div class="row pt-4 pb-3">
+            <div class="col-6"></div>
+
+            <div class="col-6 text-end">
+                <a asp-controller="EventOperation" asp-action="AddEvent" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> New Event
+                </a>
+            </div>
+        </div>
+
+        <table class="table table-bordered table-striped text-center">
+            <thead class="thead-dark text-center">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Message</th>
+                    <th></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var obj in Model)
+                {
+                    <tr class="mt-2">
+                        <td>@obj.Name</td>
+                        <td>@obj.Email</td>
+                        <td>@obj.Phone</td>
+                        <td>@obj.Comment</td>
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                @* asp-route-anyName will send the id to the controller after clicking the edit button *@
+                                <a asp-controller="EventOperation" asp-action="Read" asp-route-id="@obj.Id" class="btn btn-primary m-2">
+                                    <i class="bi bi-check2-square"></i>
+                                </a>
+                                <a asp-controller="EventOperation" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger m-2">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

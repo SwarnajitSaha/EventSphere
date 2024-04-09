@@ -3,6 +3,9 @@ using EventSphere.DataAccess.Repository;
 using EventSphere.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using EventSphere.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +19,11 @@ builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlSer
                         sqlServerOptions.EnableRetryOnFailure(5, TimeSpan.FromSeconds(30), null);
                     }));
 
+//builder.Services.AddDefaultIdentity<IdentityUser>(/*options => options.SignIn.RequireConfirmedAccount = true*/).AddEntityFrameworkStores<ApplicationDBContext>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDBContext>().AddDefaultTokenProviders(); //to add roole with a user
+builder.Services.AddRazorPages(); //To tell the MVC Program that this project contains Razor Pages also...Idnety Pages are Razor Pages
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IEmailSender,EmailSender>();
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -31,9 +38,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
-
+app.MapRazorPages(); //map the razor Pages
 app.MapControllerRoute(
     name: "default",
     pattern: "{area=EventProcess}/{controller=Home}/{action=Home}/{id?}");

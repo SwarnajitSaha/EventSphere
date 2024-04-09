@@ -3813,6 +3813,7 @@ textarea.form-control-lg {
 }
 
 .navbar-collapse {
+  padding-left: 5px;
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;

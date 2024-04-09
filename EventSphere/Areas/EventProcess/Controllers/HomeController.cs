@@ -44,5 +44,6 @@ namespace EventSphere.Areas.EventProcess.Controllers
             };
             return View(homeVM);
         }
+
     }
 }
