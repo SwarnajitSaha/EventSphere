@@ -464,12 +464,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\eventProfileImage\a434a2af-c226-4b74-9e22-084c8e3e9746.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\eventProfileImage\0e547265-aa48-4f24-8717-e385f35d26ea.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EventSphere</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EventSphere</BasePath>
-      <RelativePath>image/eventProfileImage/a434a2af-c226-4b74-9e22-084c8e3e9746.jpg</RelativePath>
+      <RelativePath>image/eventProfileImage/0e547265-aa48-4f24-8717-e385f35d26ea.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -478,7 +478,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\eventProfileImage\a434a2af-c226-4b74-9e22-084c8e3e9746.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\eventProfileImage\0e547265-aa48-4f24-8717-e385f35d26ea.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\eventProfileImage\7d8824a5-fbdd-4a79-a697-3ce257609fdf.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EventSphere</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EventSphere</BasePath>
+      <RelativePath>image/eventProfileImage/7d8824a5-fbdd-4a79-a697-3ce257609fdf.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\eventProfileImage\7d8824a5-fbdd-4a79-a697-3ce257609fdf.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\eventProfileImage\e0426110-b119-40a6-af73-6b64d7a0f4d8.jpg))">
       <SourceType>Package</SourceType>

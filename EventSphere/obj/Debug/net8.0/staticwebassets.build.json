@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CGotwqBAmlj8E2EU6vyDupg2TM3ulPDmfKF5ywxG3OQ=",
+  "Hash": "VBIHIY0KlekIIRfAa/dyXd2pB2lNstpbv84RrxX4JVs=",
   "Source": "EventSphere",
   "BasePath": "_content/EventSphere",
   "Mode": "Default",
@@ -1765,12 +1765,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\swarn\\source\\repos\\EventSphere\\EventSphere\\wwwroot\\image\\eventProfileImage\\a434a2af-c226-4b74-9e22-084c8e3e9746.jpg",
+      "Identity": "C:\\Users\\swarn\\source\\repos\\EventSphere\\EventSphere\\wwwroot\\image\\eventProfileImage\\0e547265-aa48-4f24-8717-e385f35d26ea.jpg",
       "SourceId": "EventSphere",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\swarn\\source\\repos\\EventSphere\\EventSphere\\wwwroot\\",
       "BasePath": "_content/EventSphere",
-      "RelativePath": "image/eventProfileImage/a434a2af-c226-4b74-9e22-084c8e3e9746.jpg",
+      "RelativePath": "image/eventProfileImage/0e547265-aa48-4f24-8717-e385f35d26ea.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1781,7 +1781,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\eventProfileImage\\a434a2af-c226-4b74-9e22-084c8e3e9746.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\eventProfileImage\\0e547265-aa48-4f24-8717-e385f35d26ea.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\swarn\\source\\repos\\EventSphere\\EventSphere\\wwwroot\\image\\eventProfileImage\\7d8824a5-fbdd-4a79-a697-3ce257609fdf.jpg",
+      "SourceId": "EventSphere",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\swarn\\source\\repos\\EventSphere\\EventSphere\\wwwroot\\",
+      "BasePath": "_content/EventSphere",
+      "RelativePath": "image/eventProfileImage/7d8824a5-fbdd-4a79-a697-3ce257609fdf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\eventProfileImage\\7d8824a5-fbdd-4a79-a697-3ce257609fdf.jpg"
     },
     {
       "Identity": "C:\\Users\\swarn\\source\\repos\\EventSphere\\EventSphere\\wwwroot\\image\\eventProfileImage\\e0426110-b119-40a6-af73-6b64d7a0f4d8.jpg",

@@ -3754,6 +3754,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  padding-bottom: 3px;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11030,10 +11031,13 @@ header.masthead .masthead-heading {
   font-weight: 700;
   margin-bottom: 0;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+    #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+        font-style: italic;
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;

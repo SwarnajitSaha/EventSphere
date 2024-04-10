@@ -5,9 +5,11 @@
     "\\EventSphere\\Areas",
     "\\EventSphere\\Areas\\EventProcess",
     "\\EventSphere\\Areas\\EventProcess\\Controllers",
+    "\\EventSphere\\Areas\\EventProcess\\Views",
+    "\\EventSphere\\Areas\\EventProcess\\Views\\Home",
     "\\EventSphere\\Views",
     "\\EventSphere\\Views\\Shared"
   ],
-  "SelectedNode": "\\EventSphere.sln",
+  "SelectedNode": "\\EventSphere\\Areas\\EventProcess\\Views\\Home\\Home.cshtml",
   "PreviewInSolutionExplorer": false
 }
